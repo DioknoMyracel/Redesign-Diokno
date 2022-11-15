@@ -1,0 +1,159 @@
+body{
+  max-width: 1440px;
+  height: 1024px;
+  margin: auto;
+  padding: 0;
+	font-family: 'Inter', sans-serif;
+}
+.wrapper{
+  width: auto;
+  height: 1024px;
+  background-image: linear-gradient(to bottom right, #F3E5F5, #E1BEE7, #BA68C8, #AA00FF);
+}
+.header{
+  height: 80px;
+  width: 1004px auto;
+  margin: 0;
+  background-color: #FCE4EC;
+  box-shadow: #6A1B9A 0 5px 15px, #AB47BC 5px -5px 15px inset, #AB47BC -5px -5px 15px inset;
+  border-radius: 0  0 9px 9px; 
+  position: relative;
+}
+.logo{
+  height: 65px;
+  width: 65px;
+  margin: 5px 25px;
+  height: 70px;
+  width: 70px;
+}
+.logo, .tab{
+	float: left;
+}
+.tab{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 25px 20px;
+}
+a{
+	text-decoration: none;
+}
+.messenger{
+	color: #7A34B2;
+}
+.help, .about{
+	color: #522277;
+}
+.icons{
+  float: right;
+  position: relative;
+  top: 25px;
+}
+.min, .max, .close{
+  width: 25px;
+  height: 25px;
+  margin: 0 7px;
+}
+.close{
+  margin-right: 40px
+}
+.body{
+  height: 940px;
+  width: auto;
+}
+.card{
+  width: 1041px;
+  height: 668px;
+  margin: auto;
+	position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 39px;
+  background-color: #EFD6FB;
+  box-shadow: #8E24AA 20px 20px 40px, #AB47BC -20px 20px 40px, #FFF 0px 20px 30px inset, #CE67FF 30px -30px 30px inset, #CE67FF -30px 0 30px inset;
+}
+.container{
+	clear: left;
+	display: flex;
+}
+.ym{
+  margin: 90px 75px 50px 75px;
+  width: 355px;
+  height: auto;
+}
+.times{
+	float: right;
+	width: 25px;
+  height: 25px;
+  margin: 40px 40px;
+}
+p{
+	font-size: 18px;
+	font-weight: bold;
+}
+.type{
+	border: none;
+	padding: 15px 70px;
+	border-radius: 10px;
+	background-color: #EFD6FB;
+	box-shadow: 5px -5px 15px #B888DD inset, -5px 5px 15px #B888DD inset;
+}
+button{
+	border-radius: 40px;
+	padding: 10px 25px;
+	box-shadow: -5px 0 10px #8839C6, 5px 5px 10px #8839C6, 0 5px 5px #EFD6FB inset, -5px -5px 10px #522277 inset, 5px 0 10px #522277 inset;
+	background-color: #7A34B2;
+	border: none;
+	margin: 40px 200px;-
+}
+.button{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.phase {
+  float: left;
+  width: 50%;
+}
+.phase:nth-child(odd) {
+  clear: left;
+}
+.id, .type{
+	text-align: left;
+	margin-left: 90px;
+}
+.right{
+	align-items: center;
+}
+.top{
+	margin: 220px 0 40px 50px;
+	align-items: center;
+}
+.check{
+	display: block;
+	padding: 10px;
+	width: 20px;
+	height: 20px;
+}
+.one, .two, .three{
+	display: inline-block;
+}
+form{
+	text-align: center;
+}
+label{
+	font-size: 18px;
+	font-weight: bold;
+}
+select{
+	border: 2px solid #8839C6;
+	border-radius: 10px;
+	font-size: 16px;
+	padding: 10px 60px;
+	color: gray;
+}
+.foot{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #40C4FF;
+}
